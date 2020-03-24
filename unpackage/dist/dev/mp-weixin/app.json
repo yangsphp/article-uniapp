@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/write/write",
+    "pages/me/me",
+    "pages/login/login",
+    "pages/artedit/artedit",
+    "pages/info/info"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "悦读",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#707070",
+    "selectedColor": "#DE533A",
+    "list": [
+      {
+        "iconPath": "static/nav1.png",
+        "selectedIconPath": "static/nav1-a.png",
+        "text": "文章",
+        "pagePath": "pages/index/index"
+      },
+      {
+        "iconPath": "static/nav2.png",
+        "selectedIconPath": "static/nav2-a.png",
+        "text": "写作",
+        "pagePath": "pages/write/write"
+      },
+      {
+        "iconPath": "static/nav3.png",
+        "selectedIconPath": "static/nav3-a.png",
+        "text": "我的",
+        "pagePath": "pages/me/me"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap65.json"
+}

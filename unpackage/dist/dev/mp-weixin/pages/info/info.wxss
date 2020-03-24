@@ -1,0 +1,130 @@
+
+.cu-card>.cu-item {
+	margin: 0;
+}
+.yang-skeleton {
+	padding: 5px 0;
+	background: #F1F2F3;
+	border-radius: 8px;
+}
+.yang-article-title {
+	margin: 0 12px 8px 12px;
+	font-size: 26px;
+	line-height: 1.5em;
+	font-weight: 700;
+}
+.yang-article-author-line {
+	margin: 3px 12px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: nowrap;
+	        flex-wrap: nowrap;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.yang-article-author {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: nowrap;
+	        flex-wrap: nowrap;
+}
+.yang-article-author image {
+	width: 28px;
+	height: 28px;
+	border-radius: 100%;
+}
+.yang-article-author .author-name {
+	line-height: 28px;
+	padding-left: 5px;
+}
+.yang-article-author-line .btn {
+	display: inline-block;
+	height: 28px;
+	line-height: 28px;
+	border-radius: 3px;
+	padding: 0 10px;
+	background: #00B26A;
+	color: #FFFFFF;
+}
+.yang-article-info-line {
+	margin: 8px 12px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: nowrap;
+	        flex-wrap: nowrap;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.yang-article-info-line view {
+	color: #888;
+	line-height: 20px;
+	font-size: 12px;
+}
+.yang-article-contents {
+	margin: 10px 0;
+}
+.yang-article-contents .img-item {
+	width: 100%;
+}
+.yang-article-contents .img-item image {
+	width: 100%;
+}
+.yang-article-contents .text-item {
+	margin: 8px 12px;
+	line-height: 2.2em;
+	font-size: 16px;
+	color: #2F2F2F;
+}
+.yang-operate {
+	width: 100%;
+	height: 100rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	z-index: 1;
+	background-color: #fff;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.input-comment {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.input-comment input {
+	padding: 0 20rpx;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+}
+.click-share {
+	width: 200rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+}
+.click-share>view {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	text-align: center;
+}
+.click-share>view>text {
+	font-size: 50rpx;
+}
+

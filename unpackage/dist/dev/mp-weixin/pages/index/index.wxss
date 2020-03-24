@@ -1,0 +1,8 @@
+
+.nav .cu-item {
+	padding: 0 40rpx;
+}
+.cu-card>.cu-item {
+	margin: 0;
+}
+

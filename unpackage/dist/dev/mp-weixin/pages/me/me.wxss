@@ -1,0 +1,127 @@
+
+.yang-padding {
+	padding: 0%;
+}
+.yang-box-banner {
+	padding: 20rpx 0;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: nowrap;
+	        flex-wrap: nowrap;
+	overflow: hidden;
+	background: #FFF;
+}
+.yang-box-banner .yang-items {
+	width: 25%;
+	border-right: 1px solid #F1F2F3;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	line-height: 1.4em;
+	text-align: center；
+}
+.yang-box-banner .yang-items:last-child {
+	border: none;
+}
+.yang-box-banner .yang-items view {
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	text-align: center;
+}
+.yang-box-banner .yang-items text text {
+	font-size: 22rupx;
+	color: #666;
+}
+.yang-box-banner .line1 {
+	font-size: 36rpx;
+	line-height: 60rpx;
+	overflow: hidden;
+}
+.yang-box-banner .line1 text {
+	font-size: 26rpx;
+	color: #666;
+	line-height: 65rpx;
+	margin-left: 5rpx;
+}
+.yang-box-banner .line2 {
+	font-size: 26rpx;
+	color: #666;
+	line-height: 32rpx;
+}
+.yang-nowrap {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: nowrap !important;
+	        flex-wrap: nowrap !important;
+}
+.yang-space-between {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify !important;
+	-webkit-justify-content: space-between !important;
+	        justify-content: space-between !important;
+}
+.yang-title {
+	padding: 10rpx 20rpx;
+	line-height: 1.8em;
+	background: #fff;
+}
+.yang-title .yang-text-small {
+	color: #888;
+}
+.yang-more-bottom {
+	font-size: 24rpx;
+	text-align: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	padding: 15rpx 0;
+	line-height: 40rpx;
+}
+.yang-more-bottom text {
+	font-size: 24rpx;
+}
+.yang-more-r {
+	display: block;
+	width: auto;
+	-webkit-flex-shrink: 0;
+	        flex-shrink: 0;
+	font-size: 22rpx;
+}
+.yang-more-r text {
+	font-size: 22rpx;
+}
+.myface {
+	width: 88px;
+	height: 88px;
+	border: 5px solid #F1F2F3;
+	border-radius: 100%;
+	margin: 15px auto;
+}
+.myface image {
+	width: 100%;
+	border-radius: 100%;
+}
+.loadMore {
+	width: 100%;
+	padding: 8px 0;
+	text-align: center;
+	color: #CCCCCC;
+}
+.nav .cu-item {
+	padding: 0 40rpx;
+}
+.cu-card > .cu-item{
+	margin: 0;
+}
+.cu-card.dynamic>.cu-item>.text-content{
+	padding-top: 20rpx;
+}
+.margin-top10{
+	margin-top: 10rpx;
+}
+

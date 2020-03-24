@@ -1,0 +1,1 @@
+<view><button type="default" open-type="getUserInfo" withCredentials="true" data-event-opts="{{[['getuserinfo',[['getUserInfo',['$event']]]]]}}" bindgetuserinfo="__e">小程序登录</button></view>
